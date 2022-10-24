@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09A022DD28EC4DB2004AD274 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 09A022DC28EC4DB2004AD274 /* Swinject */; };
 		09CA62CC28E87A7100576AB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CA62CB28E87A7100576AB9 /* AppDelegate.swift */; };
 		09CA62CE28E87A7100576AB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CA62CD28E87A7100576AB9 /* SceneDelegate.swift */; };
 		09CA62D028E87A7100576AB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CA62CF28E87A7100576AB9 /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09CA62E128E87AAD00576AB9 /* Swinject in Frameworks */,
+				09A022DD28EC4DB2004AD274 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +98,7 @@
 			name = DependencyInjection;
 			packageProductDependencies = (
 				09CA62E028E87AAD00576AB9 /* Swinject */,
+				09A022DC28EC4DB2004AD274 /* Swinject */,
 			);
 			productName = DependencyInjection;
 			productReference = 09CA62C828E87A7100576AB9 /* DependencyInjection.app */;
@@ -127,6 +130,7 @@
 			mainGroup = 09CA62BF28E87A7100576AB9;
 			packageReferences = (
 				09CA62DF28E87AAD00576AB9 /* XCRemoteSwiftPackageReference "Swinject" */,
+				09A022DB28EC4DB2004AD274 /* XCRemoteSwiftPackageReference "Swinject" */,
 			);
 			productRefGroup = 09CA62C928E87A7100576AB9 /* Products */;
 			projectDirPath = "";
@@ -380,6 +384,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		09A022DB28EC4DB2004AD274 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		09CA62DF28E87AAD00576AB9 /* XCRemoteSwiftPackageReference "Swinject" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Swinject/Swinject.git";
@@ -391,6 +403,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		09A022DC28EC4DB2004AD274 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09A022DB28EC4DB2004AD274 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
 		09CA62E028E87AAD00576AB9 /* Swinject */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 09CA62DF28E87AAD00576AB9 /* XCRemoteSwiftPackageReference "Swinject" */;
